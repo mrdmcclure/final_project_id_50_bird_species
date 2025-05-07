@@ -21,7 +21,8 @@ The ResNet50 convolutional neural network (CNN) was chosen for this project.
 ResNet-50 is a well-established CNN developed by Microsoft and known for its ability to learn complex features from images and effectiveness in image classification tasks. Weights from imagenet are used for transfer learning with the goal to reduce the number of epochs (and amount of Google Colab credits used). The final layer of the model is adapted to match the number of bird species in our dataset. 
 
 
-## Training The model is trained using the training dataset and evaluated periodically on the validation dataset to monitor performance and prevent overfitting. 
+## Training 
+The model is trained using the training dataset and evaluated periodically on the validation dataset to monitor performance and prevent overfitting. 
 
 **Training Procedure:**
 A dataset containing 35-40 images for each species for training was used, with an additional 4 images each for testing and validation.  The data was trained using the ResNet50 model for 30 epochs. 
