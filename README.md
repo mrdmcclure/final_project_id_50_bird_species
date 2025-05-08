@@ -31,10 +31,20 @@ A dataset containing 35-40 images for each species for training was used, with a
 Adam was selected as the optimization algorithm. 
 
 **Loss Function:** 
-Categorical Cross-entropy was selected as the loss function/
+Categorical Cross-entropy was selected as the loss function.
 
 **Learning Rate Schedule:**
 The learning rate was set at 0.001 and did not change over the course of the training.
 
 **Hardware Used:**
 Google A100 GPU units were used to perform the training.  When not available, Google L4 GPU units were used.
+
+
+##Additional Code
+2 additional notebooks are included as described below:
+
+**Populate train and validation data**
+This contains a function (nutcracker) where the user sets the training folder and destinations for the test and validation images.  This function seatches for subfolders and for each subfolder in the training folder, it takes the first 4 images and places them in the aproprate test subfolder and the last 4 in the folder for validation.
+
+**Rotate images**
+In case more training data is needed, a function to loop through a folder and make copies of each image rotated a specified amount of degrees was created.  This function (oystercatcher) takes the target file and degrees to rotate the images as inputs. 
