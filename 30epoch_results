@@ -1,0 +1,63 @@
+Using 30 epochs
+Classification Report:
+                          precision    recall  f1-score   support
+
+     American_Goldfinch       0.75      0.75      0.75         4
+         American_Pipit       1.00      0.75      0.86         4
+      American_Redstart       1.00      0.75      0.86         4
+       Anna_Hummingbird       1.00      1.00      1.00         4
+      Belted_Kingfisher       0.44      1.00      0.62         4
+ Black_footed_Albatross       1.00      1.00      1.00         4
+ Black_throated_Sparrow       0.67      0.50      0.57         4
+       Brandt_Cormorant       0.50      1.00      0.67         4
+       Brewer_Blackbird       1.00      0.25      0.40         4
+          Brown_Creeper       0.80      1.00      0.89         4
+          Brown_Pelican       0.80      1.00      0.89         4
+       Chipping_Sparrow       0.57      1.00      0.73         4
+       Clark_Nutcracker       1.00      0.75      0.86         4
+           Common_Raven       1.00      1.00      1.00         4
+        Dark_eyed_Junco       0.75      0.75      0.75         4
+       Evening_Grosbeak       0.50      1.00      0.67         4
+            Fox_Sparrow       0.43      0.75      0.55         4
+   Glaucous_winged_Gull       0.20      0.25      0.22         4
+              Green_Jay       1.00      0.50      0.67         4
+       Green_Kingfisher       0.67      0.50      0.57         4
+          Heermann_Gull       1.00      0.25      0.40         4
+       Hooded_Merganser       0.67      0.50      0.57         4
+          Hooded_Oriole       0.50      0.25      0.33         4
+           Horned_Grebe       1.00      0.50      0.67         4
+            Horned_Lark       1.00      0.75      0.86         4
+          Horned_Puffin       0.67      1.00      0.80         4
+          House_Sparrow       0.40      0.50      0.44         4
+         Lazuli_Bunting       1.00      1.00      1.00         4
+      Loggerhead_Shrike       0.40      0.50      0.44         4
+                Mallard       1.00      1.00      1.00         4
+            Mockingbird       0.75      0.75      0.75         4
+       Northern_Flicker       1.00      0.75      0.86         4
+           Pacific_Loon       0.67      1.00      0.80         4
+       Pigeon_Guillemot       0.75      0.75      0.75         4
+           Purple_Finch       1.00      1.00      1.00         4
+ Red_breasted_Merganser       1.00      1.00      1.00         4
+   Red_winged_Blackbird       0.75      0.75      0.75         4
+      Rhinoceros_Auklet       1.00      0.75      0.86         4
+       Savannah_Sparrow       1.00      0.75      0.86         4
+           Song_Sparrow       1.00      0.25      0.40         4
+   Vermilion_Flycatcher       0.67      0.50      0.57         4
+           Western_Gull       0.50      0.75      0.60         4
+     Western_Meadowlark       1.00      1.00      1.00         4
+     Western_Wood_Pewee       1.00      0.75      0.86         4
+          White_Pelican       1.00      0.75      0.86         4
+White_breasted_Nuthatch       1.00      0.50      0.67         4
+  White_crowned_Sparrow       0.75      0.75      0.75         4
+ White_throated_Sparrow       1.00      1.00      1.00        12
+Yellow_headed_Blackbird       0.75      0.75      0.75         4
+    freaking_roadrunner       1.00      1.00      1.00         4
+
+               accuracy                           0.75       208
+              macro avg       0.81      0.74      0.74       208
+           weighted avg       0.81      0.75      0.75       208
+
+
+
+ 
+
