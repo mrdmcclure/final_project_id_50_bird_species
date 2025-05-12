@@ -1,4 +1,8 @@
-Using 30 epochs
+Below are then results of my experiment using the ResNet50 model to recognise 50 different species of birds based on a training set of 30-40 images for each species.  
+Overall, the average percision was 81% and the goal was to get above 80%
+
+This experiment used 30 epochs.  Several very similiar looking species were chosen to see if the model could distingush between them.
+
 Classification Report:
                           precision    recall  f1-score   support
 
