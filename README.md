@@ -1,8 +1,11 @@
-North American Bird Species Identification 
+North American Bird Species Identification Part I
+
 A project training a ResNet50 model to recognize 50 different species of birds
 
 ## Overview 
 This project aims to train a machine learning model capable of accurately identifying between 50 common North American bird species from a dataset of 40-50 images for each species, using 4 images each for testing and validation. 
+
+The first phase of this project was created to fulfil the final project at LearningFuze.  Subsequent phases focus on adding species, and improving performance
 
 
 ## Dataset 
